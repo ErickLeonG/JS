@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeApi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pokemon">
+      <div class="image">
+        <img
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+          alt="pokemon"
+          id="pokeImg"
+        />
+      </div>
+      <div class="input">
+        <input
+          type="text"
+          placeholder="Pokemon"
+          id="pokeName"
+          name="pokeName"
+        />
+      </div>
+      <div class="button">
+        <button onclick="fetchPokemon()">Search</button>
+      </div>
+    </div>
+    <div class="data">
+      <div class="table">
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td id="name">???</td>
+          </tr>
+          <tr>
+            <td>Number:</td>
+            <td id="number">???</td>
+          </tr>
+          <tr>
+            <td>Type:</td>
+            <td id="type">???</td>
+          </tr>
+          <tr>
+            <td>Health Points:</td>
+            <td id="hp">???</td>
+          </tr>
+          <tr>
+            <td>Attack:</td>
+            <td id="attack">???</td>
+          </tr>
+          <tr>
+            <td>Defense:</td>
+            <td id="defense">???</td>
+          </tr>
+          <tr>
+            <td>Special Attack:</td>
+            <td id="special-attack">???</td>
+          </tr>
+          <tr>
+            <td>Special Defense:</td>
+            <td id="special-defense">???</td>
+          </tr>
+          <tr>
+            <td>Speed:</td>
+            <td id="speed">???</td>
+          </tr>
+          <tr>
+            <td>Ability:</td>
+            <td id="ability">???</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
